@@ -5,13 +5,12 @@ public class File1 {
 		int n , e_sum =0, o_sum =0;
 		Scanner obj = new Scanner(System.in);
 		System.out.println("Enter Array size:");
-		n = obj.nextInt(); // 5
+		n = obj.nextInt(); 
 		int a[] = new int[n];
-		
-		//input 5 values
+
 		for(int i =0; i< n; i++)
 		{
-			a[i] = obj.nextInt(); // 1 2 3 4 5
+			a[i] = obj.nextInt();
 		}
 		for(int i=0; i < n; i++)
 		{
